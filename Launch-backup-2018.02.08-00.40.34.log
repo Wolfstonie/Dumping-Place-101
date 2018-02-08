@@ -1,0 +1,492 @@
+Log: Log file open, 07/02/2018 22:54:03
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Warning: Warning, Unknown language extension . Defaulting to INT
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 171122.50648.178784
+Init: Compiled (32-bit): Nov  2 2017 16:54:43
+Init: Command line: 
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win32\
+[0000.42] Init: Computer: ULVEEN-DATOR
+[0000.42] Init: User: Ulveen
+[0000.42] Init: CPU Page size=4096, Processors=8
+[0000.42] Init: High frequency timer resolution =3.897225 MHz
+[0000.42] Init: Memory total: Physical=15.8GB (16GB approx) Pagefile=31.8GB Virtual=4.0GB
+[0001.07] Log: Steam Client API initialized 1
+[0001.12] Log: Steam Game Server API initialized 1
+[0001.12] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0001.12] Init: Object subsystem initialized
+[0001.19] Log: Found D3D11 adapter 0: NVIDIA GeForce GTX TITAN X
+[0001.19] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0001.22] Log: Found D3D11 adapter 1: Intel(R) HD Graphics 4600
+[0001.22] Log: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 3983MB of shared system memory
+[0001.23] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0001.23] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory
+[0001.29] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.50] Log: ProductDatabase_TA::PostLoad  0.02 sec total.
+[0004.61] Log: 97185 objects as part of root set at end of initial load.
+[0004.61] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.61] Log: Initializing Engine...
+[0004.61] Log: BuildID: 2013113857 from GPsyonixBuildID
+[0004.63] SystemSettings: Loading PC Settings
+[0004.68] Log: Running hardware survey...
+[0004.68] DevAudio: Allocated 32 sources
+[0004.68] DevAudio: CommonAudioPoolSize is set to 0 - disabling persistent pool for audio data
+[0004.68] Log: Wwise(R) SDK Version 2016.2.3 Build 6077. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0004.72] Log: OS: Microsoft Windows 10 Home  (10586)
+[0005.82] Log: WinSAT: 7.8 [7.8 CPU, 7.9 2D, 7.9 3D, 7.8 Mem, 7.9 Disk]
+[0005.82] Log: Processor: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz (Intel64 Family 6 Model 60 Stepping 3) 4 Cores, 8 Threads
+[0005.82] Log: Memory: 8.00GB
+[0005.82] Log: Memory: 8.00GB
+[0005.82] Log: VideoController: Intel(R) HD Graphics 4600 (20.19.15.4331)
+[0005.82] Log: VideoController: NVIDIA GeForce GTX TITAN X (23.21.13.8871)
+[0005.82] Log: Network Adapter: Killer E2200 Gigabit Ethernet Controller
+[0005.82] Log: Disk C: 66.93GB free of 463.88GB
+[0005.82] Log: Disk D: 1007.06GB free of 1863.02GB
+[0005.82] Log: Disk E: 57.05GB free of 111.73GB
+[0005.82] Log: Disk F: 3.79GB free of 8.03GB
+[0005.82] Log: Disk G: 82.76GB free of 457.62GB
+[0005.82] Log: Disk Y: 0.13GB free of 0.44GB
+[0005.82] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0005.82] Log: Sound Device: Realtek High Definition Audio
+[0005.82] Log: Sound Device: NVIDIA High Definition Audio
+[0005.82] Log: Sound Device: VB-Audio Virtual Cable
+[0005.82] Log: Sound Device: VB-Audio VoiceMeeter VAIO
+[0005.82] Log: Sound Device: Senstic PocketAudio
+[0005.82] Log: Sound Device: Kinoni Audio Source
+[0005.82] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0005.82] Log: Initializing Steamworks
+[0005.84] DevOnline: Steam ID: 76561198044231460
+[0005.84] DevOnline: Steam universe: PUBLIC
+[0005.84] DevOnline: Steam appid: 252950
+[0005.84] DevOnline: Steam IsSubscribed: 1
+[0005.84] DevOnline: Steam IsLowViolence: 0
+[0005.84] DevOnline: Steam IsCybercafe: 0
+[0005.84] DevOnline: Steam IsVACBanned: 0
+[0005.84] DevOnline: Steam IP country: SE
+[0005.84] DevOnline: Steam official server time: 1518040482
+[0005.84] DevOnline: Steam Cloud quota: 89565704 / 100000000
+[0005.84] DevOnline: Steam original app owner: 76561198044231460
+[0005.84] DevOnline: Logged in as 'Wolfie'
+[0005.84] VoiceChat: The desired playback sample rate is 11000.
+[0005.84] ScriptLog: PsyNet using environment DBE_Production Prod
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 LoggedOut
+[0005.85] PsyNet: PsyNetConnection_X_0 disabled OSCS_NotConnected
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 HandleConnectionChanged
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 UpdateLoginState
+[0005.85] DevOnline: Logged in as 'Wolfie'
+[0005.85] PsyNet: PsyNetConnection_X_0 enabled
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleConnectionChanged
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 UpdateLoginState
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 RequestAuthCode
+[0005.85] DevOnline: Issuing request for auth session ticket
+[0005.85] DevOnline: Issuing request for encrypted app ticket
+[0005.85] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0005.85] DevOnline: Successfully set the friend join URL: 
+[0005.85] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0005.85] SaveGame: Savedata Load ControllerId=0 File=..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0005.86] DevNet: Browse: MENU_Main_p
+[0005.87] Log: LoadMap: MENU_Main_p
+[0006.17] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0006.27] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0006.61] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.02.07-22.54.09
+[0006.61] Log: Bringing up level for play took: 0.329746
+[0006.62] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0006.62] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0007.16] DevOnline: Set rich presence to: Main Menu data: Menu
+[0007.16] Log: ########### Finished loading level: 1.289789 seconds
+[0007.74] Log: Flushing async loaders.
+[0008.22] Log: Flushed async loaders.
+[0008.22] Log: Initializing Engine Completed
+[0008.22] Log: >>>>>>>>>>>>>> Initial startup: 8.22s <<<<<<<<<<<<<<<
+[0008.24] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 SendLoginRequest
+[0008.24] DevOnline: Logged in as 'Wolfie'
+[0008.24] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0008.24] DevOnline: Successfully set the friend join URL: 
+[0008.25] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0008.28] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_0 [Auth/AuthPlayer]
+[0008.28] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0008.28] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0009.32] SignIn: Profile OnLoaded LocalID=0
+[0009.52] SignIn: Profile OnLoaded LocalID=1
+[0009.52] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,DarkCar,Body_NeoBike,Body_NeoCar,body_charged,body_Melonpan
+[0009.52] SignIn: SetProfile Profile=Profile_TA_0 ProfileName=[CV] Wolfie
+[0009.58] Log: Flushing async loaders.
+[0009.59] Log: Flushed async loaders.
+[0009.59] Warning: Warning, Failed to load 'SwfMovie GFX_StartMenu.StartMenu': Failed to find object 'SwfMovie GFX_StartMenu.StartMenu'
+[0009.77] DevAudio: UAudioDevice::ApplySoundMode(): Default
+[0009.79] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0009.79] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_0 Response=PsyNetMessage_X_1 Latency=1.5538 
+[0009.93] DevOnline: Obtained steam user stats, user: 76561198044231460
+[0009.95] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_0->PsyNetMessage_X_1 PsyTime=1518040485 [Auth/AuthPlayer]
+[0009.95] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 LoggedIn
+[0009.95] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=True bPerConConnected=False
+[0009.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_2 [Settings/GetStaticDataURL]
+[0009.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0009.97] PsyNet: HTTP send ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0009.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_3 [Players/GetPlayerTitles DLC/GetDLC Skills/GetPlayerSkill]
+[0009.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0009.97] PsyNet: HTTP send ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0009.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_4 [SaveData/Get]
+[0009.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0009.97] PsyNet: HTTP send ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0009.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_5 [Products/GetPlayerProducts]
+[0009.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0009.97] PsyNet: HTTP send ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0010.22] PsyNet: HTTP recv ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_6
+[0010.22] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_2 Response=PsyNetMessage_X_6 Latency=0.2521 
+[0010.28] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_2->PsyNetMessage_X_6 PsyTime=1518040487 [Settings/GetStaticDataURL]
+[0010.34] Log: PsyNetStaticData could not find class 'PlayerReportConfig_TA'
+[0010.34] Log: FJsonStructReader - cannot find property PlayerReports because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0010.34] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0010.36] PsyNet: HTTP recv ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_7
+[0010.36] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=1 ID=PsyNetMessage_X_4 Response=PsyNetMessage_X_7 Latency=0.3863 
+[0010.39] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_4->PsyNetMessage_X_7 PsyTime=1518040487 [SaveData/Get]
+[0010.39] ScriptWarning: ScriptWarning, LastUnlockDisplayId:'18446744071930385267' > HighestFoundUnlock:'2515801964'
+	SaveData_TA Transient.SaveData_TA_1
+	Function TAGame.SaveData_TA:ValidateLastUnlockDisplayId:0104
+Script call stack:
+	Function ProjectX.RPC_X:OnSuccess
+	Function TAGame.SaveData_TA:HandleOnlineSaveDataReceived
+	Function TAGame.SaveData_TA:ValidateLastUnlockDisplayId
+
+[0010.41] Log: FSaveDataExportTask(1671085875527680) wrote 1587534451 bytes to memory
+[0010.41] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[0010.41] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1221273600]
+[0010.41] PsyNet: HTTP recv ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_8
+[0010.41] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_3 Response=PsyNetMessage_X_8 Latency=0.4430 
+[0010.43] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_3->PsyNetMessage_X_8 PsyTime=1518040487 [Players/GetPlayerTitles DLC/GetDLC Skills/GetPlayerSkill]
+[0010.45] Log: FSaveDataExportTask(1671085875527680) wrote 1587534451 bytes to memory
+[0010.46] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[0010.46] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1221275264]
+[0010.88] PsyNet: HTTP recv ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_9
+[0010.88] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_5 Response=PsyNetMessage_X_9 Latency=0.9029 
+[0010.89] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_5->PsyNetMessage_X_9 PsyTime=1518040487 [Products/GetPlayerProducts]
+[0011.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_10 [Products/GetContainerDropTable]
+[0011.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0011.97] PsyNet: HTTP send ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0012.14] PsyNet: HTTP recv ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_11
+[0012.14] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_10 Response=PsyNetMessage_X_11 Latency=0.1748 
+[0012.16] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_10->PsyNetMessage_X_11 PsyTime=1518040489 [Products/GetContainerDropTable]
+[0012.55] DevOnline: Set rich presence to: Main Menu data: Menu
+[0012.57] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0012.57] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[0012.75] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_12 [Microtransaction/ClaimEntitlements]
+[0012.75] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0012.75] PsyNet: HTTP send ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0012.80] Log: FSaveDataExportTask(1671085875527680) wrote 1587534451 bytes to memory
+[0012.82] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0012.82] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1509188608]
+[0013.20] PsyNet: HTTP recv ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_13
+[0013.20] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_12 Response=PsyNetMessage_X_13 Latency=0.4510 
+[0013.21] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_12->PsyNetMessage_X_13 PsyTime=1518040489 [Microtransaction/ClaimEntitlements]
+[0014.03] Warning: Warning, Failed to load 'SwfMovie GFX_TrainingMenu.TrainingMenu': Failed to find object 'SwfMovie GFX_TrainingMenu.TrainingMenu'
+[0015.06] DevNet: Browse: STADIUM_P?Game=TAGame.GameInfo_Tutorial_TA?FreePlay?
+[0015.06] Log: Flushing async loaders.
+[0015.07] Log: Flushed async loaders.
+[0015.07] Log: LoadMap: STADIUM_P?Game=TAGame.GameInfo_Tutorial_TA?FreePlay?
+[0015.07] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0015.07] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0015.93] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Tutorial_SF.upk
+[0016.13] Log: Game class is 'GameInfo_Tutorial_TA'
+[0017.08] Log: Bringing World Stadium_P.TheWorld up for play (0) at 2018.02.07-22.54.19
+[0017.09] MatchBroadcast: Init bBroadcastMatch:'False' MatchLog:'None' MatchRPC:'None'
+[0017.09] Log: Bringing up level for play took: 0.959677
+[0017.50] Loadout: PRI_TA_0 Wolfie ServerSetLoadout
+   Params=(Title="XP",Loadouts[0]=(Products=((ProductID=403),(SlotIndex=1,ProductID=1438,InstanceID=1874301886),(SlotIndex=2,ProductID=731,InstanceID=764803444,Attributes=(ProductAttribute_Painted_TA'Transient.ProductAttribute_Painted_TA_66')),(SlotIndex=3,ProductID=62,InstanceID=2248395575,Attributes=(ProductAttribute_Painted_TA'Transient.ProductAttribute_Painted_TA_106',ProductAttribute_Quality_TA'Transient.ProductAttribute_Quality_TA_50')),(SlotIndex=7,ProductID=273),(SlotIndex=12,ProductID=2275,InstanceID=2456129564),(SlotIndex=13,ProductID=2490),(SlotIndex=14,ProductID=1898,InstanceID=1511486580),(SlotIndex=15,ProductID=1904,InstanceID=2248395578),(SlotIndex=16,ProductID=2539,InstanceID=2054214764,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_2'))),TeamPaint=(TeamFinishID=281,CustomFinishID=272,TeamColorID=23)),Loadouts[1]=(Products=((ProductID=403),(SlotIndex=1,ProductID=1438,InstanceID=1874301886),(SlotIndex=2,ProductID=731,InstanceID=764803466,Attributes=(ProductAttribute_Painted_TA'Transient.ProductAttribute_Painted_TA_67')),(SlotIndex=3,ProductID=1638,InstanceID=1884681971,Attributes=(ProductAttribute_Painted_TA'Transient.ProductAttribute_Painted_TA_95')),(SlotIndex=7,ProductID=273),(SlotIndex=12,ProductID=2275,InstanceID=2456129564),(SlotIndex=13,ProductID=2490),(SlotIndex=14,ProductID=2047,InstanceID=1965060111),(SlotIndex=15,ProductID=2023,InstanceID=1962353980),(SlotIndex=16,ProductID=2539,InstanceID=2054214764,Attributes=(ProductAttribute_UserColor_TA'Transient.ProductAttribute_UserColor_TA_2'))),TeamPaint=(TeamFinishID=283,CustomFinishID=272,Team=1,TeamColorID=5,CustomColorID=90)))
+[0017.50] Loadout: PRI_TA_0 Wolfie SetLoadouts
+   Loadouts=(TeamPaint=(TeamFinishID=281,CustomFinishID=272,TeamColorID=23),Title="XP",OnlineProducts=(0,1874301886,764803444,2248395575,0,0,0,0,0,0,0,0,2456129564,0,1511486580,2248395578,2054214764,0),Products=(403,1438,731,62,0,0,0,273,0,0,0,0,2275,2490,1898,1904,2539,0))(TeamPaint=(TeamFinishID=283,CustomFinishID=272,Team=1,TeamColorID=5,CustomColorID=90),Title="XP",OnlineProducts=(0,1874301886,764803466,1884681971,0,0,0,0,0,0,0,0,2456129564,0,1965060111,1962353980,2054214764,0),Products=(403,1438,731,1638,0,0,0,273,0,0,0,0,2275,2490,2047,2023,2539,0))
+[0017.50] DevOnline: Set rich presence to: In Training data: Tutorial
+[0017.50] Log: ########### Finished loading level: 2.431342 seconds
+[0017.50] Log: Flushing async loaders.
+[0017.56] Log: Flushed async loaders.
+[0017.60] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_14 [Population/UpdatePlayerPlaylist Metrics/RecordMetrics Ads/GetAds]
+[0017.60] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_14
+[0017.60] PsyNet: HTTP send ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_14
+[0017.66] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0017.68] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0017.69] Log: Flushing async loaders.
+[0017.70] Log: Flushed async loaders.
+[0017.70] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0017.96] PsyNet: HTTP recv ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_15
+[0017.96] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_14 Response=PsyNetMessage_X_15 Latency=0.3577 
+[0017.99] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_14->PsyNetMessage_X_15 PsyTime=1518040494 [Population/UpdatePlayerPlaylist Metrics/RecordMetrics Ads/GetAds]
+[0018.09] Achievements: IncrementStat 2 324
+[0018.09] DevOnline: Failed to store stat entry; key: 1_2, bGameServerStats: 0
+[0018.12] DevOnline: Stored steam user stats.
+[0043.37] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0075.05] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_16 [Metrics/RecordMetrics]
+[0075.05] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0075.05] PsyNet: HTTP send ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0075.24] PsyNet: HTTP recv ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_17
+[0075.24] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_16 Response=PsyNetMessage_X_17 Latency=0.1847 
+[0075.25] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_16->PsyNetMessage_X_17 PsyTime=1518040552 [Metrics/RecordMetrics]
+[0075.87] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0135.86] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_18 [Metrics/RecordMetrics]
+[0135.86] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_18
+[0135.86] PsyNet: HTTP send ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_18
+[0136.17] PsyNet: HTTP recv ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_19
+[0136.17] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_18 Response=PsyNetMessage_X_19 Latency=0.3103 
+[0136.18] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_18->PsyNetMessage_X_19 PsyTime=1518040612 [Metrics/RecordMetrics]
+[0158.83] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0187.19] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0204.59] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_20 [Metrics/RecordMetrics]
+[0204.59] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_20
+[0204.59] PsyNet: HTTP send ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_20
+[0204.80] PsyNet: HTTP recv ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_21
+[0204.80] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_20 Response=PsyNetMessage_X_21 Latency=0.2136 
+[0204.81] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_20->PsyNetMessage_X_21 PsyTime=1518040681 [Metrics/RecordMetrics]
+[0233.87] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0271.60] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0289.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_22 [Metrics/RecordMetrics]
+[0289.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_22
+[0289.97] PsyNet: HTTP send ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_22
+[0290.29] PsyNet: HTTP recv ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_23
+[0290.29] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_22 Response=PsyNetMessage_X_23 Latency=0.3229 
+[0290.30] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_22->PsyNetMessage_X_23 PsyTime=1518040767 [Metrics/RecordMetrics]
+[0298.68] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0307.42] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0317.22] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_24 [Population/UpdatePlayerPlaylist]
+[0317.22] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0317.22] PsyNet: HTTP send ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0317.41] PsyNet: HTTP recv ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_25
+[0317.41] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_24 Response=PsyNetMessage_X_25 Latency=0.1964 
+[0317.42] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_24->PsyNetMessage_X_25 PsyTime=1518040794 [Population/UpdatePlayerPlaylist]
+[0354.85] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_26 [Metrics/RecordMetrics]
+[0354.85] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_26 Message=PsyNetMessage_X_26
+[0354.85] PsyNet: HTTP send ID=PsyNetMessage_X_26 Message=PsyNetMessage_X_26
+[0355.07] PsyNet: HTTP recv ID=PsyNetMessage_X_26 Message=PsyNetMessage_X_27
+[0355.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_26 Response=PsyNetMessage_X_27 Latency=0.2209 
+[0355.07] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_26->PsyNetMessage_X_27 PsyTime=1518040831 [Metrics/RecordMetrics]
+[0362.26] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0422.26] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_28 [Metrics/RecordMetrics]
+[0422.26] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_28
+[0422.26] PsyNet: HTTP send ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_28
+[0422.47] PsyNet: HTTP recv ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_29
+[0422.47] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_28 Response=PsyNetMessage_X_29 Latency=0.2124 
+[0422.48] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_28->PsyNetMessage_X_29 PsyTime=1518040899 [Metrics/RecordMetrics]
+[0431.08] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0491.08] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_30 [Metrics/RecordMetrics]
+[0491.08] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_30
+[0491.08] PsyNet: HTTP send ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_30
+[0491.33] PsyNet: HTTP recv ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_31
+[0491.33] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_30 Response=PsyNetMessage_X_31 Latency=0.2460 
+[0491.33] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_30->PsyNetMessage_X_31 PsyTime=1518040968 [Metrics/RecordMetrics]
+[0509.57] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==0.0000 BallRotationType==Rot_Auto
+[0554.28] DevOnline: Logged in as 'Wolfie'
+[0554.28] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0554.28] DevOnline: Successfully set the friend join URL: 
+[0554.28] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0565.63] DevOnline: Received GetAuthSessionTicketResponse for invalid request!
+[0565.71] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_32 [Metrics/RecordMetrics]
+[0565.71] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_32 Message=PsyNetMessage_X_32
+[0565.71] PsyNet: HTTP send ID=PsyNetMessage_X_32 Message=PsyNetMessage_X_32
+[0565.94] PsyNet: HTTP recv ID=PsyNetMessage_X_32 Message=PsyNetMessage_X_33
+[0565.94] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_32 Response=PsyNetMessage_X_33 Latency=0.2265 
+[0565.95] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_32->PsyNetMessage_X_33 PsyTime=1518041042 [Metrics/RecordMetrics]
+[0617.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_34 [Population/UpdatePlayerPlaylist]
+[0617.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_34
+[0617.84] PsyNet: HTTP send ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_34
+[0618.15] PsyNet: HTTP recv ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_35
+[0618.15] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_34 Response=PsyNetMessage_X_35 Latency=0.3134 
+[0618.16] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_34->PsyNetMessage_X_35 PsyTime=1518041094 [Population/UpdatePlayerPlaylist]
+[0917.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_36 [Population/UpdatePlayerPlaylist]
+[0917.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_36
+[0917.84] PsyNet: HTTP send ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_36
+[0918.06] PsyNet: HTTP recv ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_37
+[0918.06] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_36 Response=PsyNetMessage_X_37 Latency=0.2198 
+[0918.07] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_36->PsyNetMessage_X_37 PsyTime=1518041394 [Population/UpdatePlayerPlaylist]
+[1217.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_38 [Population/UpdatePlayerPlaylist]
+[1217.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_38
+[1217.84] PsyNet: HTTP send ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_38
+[1218.07] PsyNet: HTTP recv ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_39
+[1218.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_38 Response=PsyNetMessage_X_39 Latency=0.2261 
+[1218.07] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_38->PsyNetMessage_X_39 PsyTime=1518041694 [Population/UpdatePlayerPlaylist]
+[1517.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_40 [Population/UpdatePlayerPlaylist]
+[1517.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_40 Message=PsyNetMessage_X_40
+[1517.84] PsyNet: HTTP send ID=PsyNetMessage_X_40 Message=PsyNetMessage_X_40
+[1518.06] PsyNet: HTTP recv ID=PsyNetMessage_X_40 Message=PsyNetMessage_X_41
+[1518.06] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_40 Response=PsyNetMessage_X_41 Latency=0.2218 
+[1518.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_40->PsyNetMessage_X_41 PsyTime=1518041994 [Population/UpdatePlayerPlaylist]
+[1813.04] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_42 [DLC/GetDLC]
+[1813.04] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_42 Message=PsyNetMessage_X_42
+[1813.04] PsyNet: HTTP send ID=PsyNetMessage_X_42 Message=PsyNetMessage_X_42
+[1813.26] PsyNet: HTTP recv ID=PsyNetMessage_X_42 Message=PsyNetMessage_X_43
+[1813.26] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_42 Response=PsyNetMessage_X_43 Latency=0.2159 
+[1813.27] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_42->PsyNetMessage_X_43 PsyTime=1518042290 [DLC/GetDLC]
+[1817.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_44 [Population/UpdatePlayerPlaylist]
+[1817.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_44 Message=PsyNetMessage_X_44
+[1817.84] PsyNet: HTTP send ID=PsyNetMessage_X_44 Message=PsyNetMessage_X_44
+[1818.13] PsyNet: HTTP recv ID=PsyNetMessage_X_44 Message=PsyNetMessage_X_45
+[1818.13] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_44 Response=PsyNetMessage_X_45 Latency=0.2954 
+[1818.14] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_44->PsyNetMessage_X_45 PsyTime=1518042294 [Population/UpdatePlayerPlaylist]
+[2117.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_46 [Population/UpdatePlayerPlaylist]
+[2117.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_46 Message=PsyNetMessage_X_46
+[2117.84] PsyNet: HTTP send ID=PsyNetMessage_X_46 Message=PsyNetMessage_X_46
+[2118.06] PsyNet: HTTP recv ID=PsyNetMessage_X_46 Message=PsyNetMessage_X_47
+[2118.06] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_46 Response=PsyNetMessage_X_47 Latency=0.2263 
+[2118.07] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_46->PsyNetMessage_X_47 PsyTime=1518042594 [Population/UpdatePlayerPlaylist]
+[2417.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_48 [Population/UpdatePlayerPlaylist]
+[2417.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_48 Message=PsyNetMessage_X_48
+[2417.84] PsyNet: HTTP send ID=PsyNetMessage_X_48 Message=PsyNetMessage_X_48
+[2418.11] PsyNet: HTTP recv ID=PsyNetMessage_X_48 Message=PsyNetMessage_X_49
+[2418.11] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_48 Response=PsyNetMessage_X_49 Latency=0.2720 
+[2418.12] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_48->PsyNetMessage_X_49 PsyTime=1518042894 [Population/UpdatePlayerPlaylist]
+[2717.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_50 [Population/UpdatePlayerPlaylist]
+[2717.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_50 Message=PsyNetMessage_X_50
+[2717.84] PsyNet: HTTP send ID=PsyNetMessage_X_50 Message=PsyNetMessage_X_50
+[2718.05] PsyNet: HTTP recv ID=PsyNetMessage_X_50 Message=PsyNetMessage_X_51
+[2718.05] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_50 Response=PsyNetMessage_X_51 Latency=0.2151 
+[2718.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_50->PsyNetMessage_X_51 PsyTime=1518043194 [Population/UpdatePlayerPlaylist]
+[2864.18] DevOnline: Logged in as 'Wolfie'
+[2864.18] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[2864.18] DevOnline: Successfully set the friend join URL: 
+[2864.18] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[2895.28] DevOnline: Logged in as 'Wolfie'
+[2895.28] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[2895.28] DevOnline: Successfully set the friend join URL: 
+[2895.28] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[3017.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_52 [Population/UpdatePlayerPlaylist]
+[3017.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_52 Message=PsyNetMessage_X_52
+[3017.84] PsyNet: HTTP send ID=PsyNetMessage_X_52 Message=PsyNetMessage_X_52
+[3018.07] PsyNet: HTTP recv ID=PsyNetMessage_X_52 Message=PsyNetMessage_X_53
+[3018.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_52 Response=PsyNetMessage_X_53 Latency=0.2339 
+[3018.08] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_52->PsyNetMessage_X_53 PsyTime=1518043494 [Population/UpdatePlayerPlaylist]
+[3317.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_54 [Population/UpdatePlayerPlaylist]
+[3317.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_54 Message=PsyNetMessage_X_54
+[3317.84] PsyNet: HTTP send ID=PsyNetMessage_X_54 Message=PsyNetMessage_X_54
+[3318.06] PsyNet: HTTP recv ID=PsyNetMessage_X_54 Message=PsyNetMessage_X_55
+[3318.06] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_54 Response=PsyNetMessage_X_55 Latency=0.2229 
+[3318.07] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_54->PsyNetMessage_X_55 PsyTime=1518043794 [Population/UpdatePlayerPlaylist]
+[3613.24] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_56 [DLC/GetDLC]
+[3613.24] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_56 Message=PsyNetMessage_X_56
+[3613.24] PsyNet: HTTP send ID=PsyNetMessage_X_56 Message=PsyNetMessage_X_56
+[3613.49] PsyNet: HTTP recv ID=PsyNetMessage_X_56 Message=PsyNetMessage_X_57
+[3613.49] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_56 Response=PsyNetMessage_X_57 Latency=0.2417 
+[3613.50] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_56->PsyNetMessage_X_57 PsyTime=1518044090 [DLC/GetDLC]
+[3617.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_58 [Population/UpdatePlayerPlaylist]
+[3617.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_58 Message=PsyNetMessage_X_58
+[3617.84] PsyNet: HTTP send ID=PsyNetMessage_X_58 Message=PsyNetMessage_X_58
+[3618.10] PsyNet: HTTP recv ID=PsyNetMessage_X_58 Message=PsyNetMessage_X_59
+[3618.10] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_58 Response=PsyNetMessage_X_59 Latency=0.2556 
+[3618.10] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_58->PsyNetMessage_X_59 PsyTime=1518044094 [Population/UpdatePlayerPlaylist]
+[3917.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_60 [Population/UpdatePlayerPlaylist]
+[3917.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_60 Message=PsyNetMessage_X_60
+[3917.84] PsyNet: HTTP send ID=PsyNetMessage_X_60 Message=PsyNetMessage_X_60
+[3918.05] PsyNet: HTTP recv ID=PsyNetMessage_X_60 Message=PsyNetMessage_X_61
+[3918.05] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_60 Response=PsyNetMessage_X_61 Latency=0.2134 
+[3918.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_60->PsyNetMessage_X_61 PsyTime=1518044394 [Population/UpdatePlayerPlaylist]
+[3992.96] DevOnline: Steam GameOverlayActivated: 1
+[3993.82] DevOnline: Steam GameOverlayActivated: 0
+[4217.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_62 [Population/UpdatePlayerPlaylist]
+[4217.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_62 Message=PsyNetMessage_X_62
+[4217.84] PsyNet: HTTP send ID=PsyNetMessage_X_62 Message=PsyNetMessage_X_62
+[4218.06] PsyNet: HTTP recv ID=PsyNetMessage_X_62 Message=PsyNetMessage_X_63
+[4218.06] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_62 Response=PsyNetMessage_X_63 Latency=0.2222 
+[4218.06] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_62->PsyNetMessage_X_63 PsyTime=1518044694 [Population/UpdatePlayerPlaylist]
+[4364.36] Log: PsyNetStaticData could not find class 'PlayerReportConfig_TA'
+[4364.36] Log: FJsonStructReader - cannot find property PlayerReports because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[4364.36] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[4517.84] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_64 [Population/UpdatePlayerPlaylist]
+[4517.84] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_64 Message=PsyNetMessage_X_64
+[4517.84] PsyNet: HTTP send ID=PsyNetMessage_X_64 Message=PsyNetMessage_X_64
+[4518.08] PsyNet: HTTP recv ID=PsyNetMessage_X_64 Message=PsyNetMessage_X_65
+[4518.08] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_64 Response=PsyNetMessage_X_65 Latency=0.2437 
+[4518.09] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_64->PsyNetMessage_X_65 PsyTime=1518044994 [Population/UpdatePlayerPlaylist]
+[4748.21] DevOnline: Logged in as 'Wolfie'
+[4748.21] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[4748.21] DevOnline: Successfully set the friend join URL: 
+[4748.21] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[4817.87] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_66 [Population/UpdatePlayerPlaylist]
+[4817.87] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_66 Message=PsyNetMessage_X_66
+[4817.87] PsyNet: HTTP send ID=PsyNetMessage_X_66 Message=PsyNetMessage_X_66
+[4818.07] PsyNet: HTTP recv ID=PsyNetMessage_X_66 Message=PsyNetMessage_X_67
+[4818.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_66 Response=PsyNetMessage_X_67 Latency=0.2051 
+[4818.08] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_66->PsyNetMessage_X_67 PsyTime=1518045294 [Population/UpdatePlayerPlaylist]
+[5117.97] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_68 [Population/UpdatePlayerPlaylist]
+[5117.97] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_68 Message=PsyNetMessage_X_68
+[5117.97] PsyNet: HTTP send ID=PsyNetMessage_X_68 Message=PsyNetMessage_X_68
+[5118.28] PsyNet: HTTP recv ID=PsyNetMessage_X_68 Message=PsyNetMessage_X_69
+[5118.28] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_68 Response=PsyNetMessage_X_69 Latency=0.3154 
+[5118.29] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_68->PsyNetMessage_X_69 PsyTime=1518045595 [Population/UpdatePlayerPlaylist]
+[5409.68] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_70 [DLC/GetDLC]
+[5409.68] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_70 Message=PsyNetMessage_X_70
+[5409.68] PsyNet: HTTP send ID=PsyNetMessage_X_70 Message=PsyNetMessage_X_70
+[5409.88] PsyNet: HTTP recv ID=PsyNetMessage_X_70 Message=PsyNetMessage_X_71
+[5409.88] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_70 Response=PsyNetMessage_X_71 Latency=0.2007 
+[5409.88] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_70->PsyNetMessage_X_71 PsyTime=1518045886 [DLC/GetDLC]
+[5418.07] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_72 [Population/UpdatePlayerPlaylist]
+[5418.07] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_72 Message=PsyNetMessage_X_72
+[5418.07] PsyNet: HTTP send ID=PsyNetMessage_X_72 Message=PsyNetMessage_X_72
+[5418.25] PsyNet: HTTP recv ID=PsyNetMessage_X_72 Message=PsyNetMessage_X_73
+[5418.25] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_72 Response=PsyNetMessage_X_73 Latency=0.1880 
+[5418.26] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_72->PsyNetMessage_X_73 PsyTime=1518045895 [Population/UpdatePlayerPlaylist]
+[5718.10] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_74 [Population/UpdatePlayerPlaylist]
+[5718.10] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_74 Message=PsyNetMessage_X_74
+[5718.10] PsyNet: HTTP send ID=PsyNetMessage_X_74 Message=PsyNetMessage_X_74
+[5718.35] PsyNet: HTTP recv ID=PsyNetMessage_X_74 Message=PsyNetMessage_X_75
+[5718.35] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_74 Response=PsyNetMessage_X_75 Latency=0.2407 
+[5718.35] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_74->PsyNetMessage_X_75 PsyTime=1518046195 [Population/UpdatePlayerPlaylist]
+[6018.12] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_76 [Population/UpdatePlayerPlaylist]
+[6018.12] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_76 Message=PsyNetMessage_X_76
+[6018.12] PsyNet: HTTP send ID=PsyNetMessage_X_76 Message=PsyNetMessage_X_76
+[6018.32] PsyNet: HTTP recv ID=PsyNetMessage_X_76 Message=PsyNetMessage_X_77
+[6018.32] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_76 Response=PsyNetMessage_X_77 Latency=0.2075 
+[6018.33] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_76->PsyNetMessage_X_77 PsyTime=1518046495 [Population/UpdatePlayerPlaylist]
+[6262.05] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[6263.10] DevNet: Browse: MENU_Main_p?closed
+[6263.10] Log: Failed; returning to Entry
+[6263.11] Log: LoadMap: MENU_Main_p?closed
+[6263.11] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[6263.88] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[6263.98] Log: Game class is 'GameInfo_GFxMenu_TA'
+[6264.55] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.02.08-00.38.27
+[6264.56] Log: Bringing up level for play took: 0.578463
+[6264.75] DevOnline: Set rich presence to: Main Menu data: Menu
+[6264.75] Log: ########### Finished loading level: 1.647522 seconds
+[6264.75] Log: Flushing async loaders.
+[6265.19] Log: Flushed async loaders.
+[6265.44] Log: FSaveDataExportTask(1670467400237056) wrote 1587534451 bytes to memory
+[6265.44] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_78 [Metrics/RecordMetrics Population/UpdatePlayerPlaylist]
+[6265.44] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_78 Message=PsyNetMessage_X_78
+[6265.44] PsyNet: HTTP send ID=PsyNetMessage_X_78 Message=PsyNetMessage_X_78
+[6265.47] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[6265.47] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1221302400]
+[6265.52] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[6265.53] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[6265.81] PsyNet: HTTP recv ID=PsyNetMessage_X_78 Message=PsyNetMessage_X_79
+[6265.81] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_78 Response=PsyNetMessage_X_79 Latency=0.3877 
+[6266.00] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_78->PsyNetMessage_X_79 PsyTime=1518046742 [Metrics/RecordMetrics Population/UpdatePlayerPlaylist]
+[6266.08] Log: FSaveDataExportTask(1670467400237056) wrote 1587534451 bytes to memory
+[6266.12] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[6266.12] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1509196928]
+[6267.39] Log: Closing by request
+[6267.39] Log: appRequestExit(0)
+[6267.47] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[6267.47] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=False bPerConConnected=False
+[6267.47] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 LoggedOut
+[6267.47] Party: HandleLocalPlayerLoginStatusChanged PlayerName= PlayerID=Steam|76561198044231460|0 LoginStatus=LS_NotLoggedIn IsPrimary=True IsInParty=False
+[6267.48] Exit: Preparing to exit.
+[6267.58] Exit: Game engine shut down
+[6267.72] Exit: Windows client shut down
+[6267.75] Exit: XAudio2 Device shut down.
+[6267.79] Exit: AK Audio shut down.
+[6268.61] Exit: Object subsystem successfully closed.
+[6268.92] Exit: Exiting.
+[6268.92] Log: Log file closed, 08/02/2018 00:38:31

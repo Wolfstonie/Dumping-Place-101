@@ -1,0 +1,605 @@
+Log: Log file open, 08/02/2018 00:40:34
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Warning: Warning, Unknown language extension . Defaulting to INT
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 180123.67440.183219
+Init: Compiled (32-bit): Jan 18 2018 17:44:59
+Init: Command line: 
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win32\
+[0000.40] Init: Computer: ULVEEN-DATOR
+[0000.40] Init: User: Ulveen
+[0000.40] Init: CPU Page size=4096, Processors=8
+[0000.40] Init: High frequency timer resolution =3.897225 MHz
+[0000.40] Init: Memory total: Physical=15.8GB (16GB approx) Pagefile=31.8GB Virtual=4.0GB
+[0000.45] Log: Steam Client API initialized 1
+[0000.59] Log: Steam Game Server API initialized 1
+[0000.59] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.59] Init: Object subsystem initialized
+[0000.63] Log: Found D3D11 adapter 0: NVIDIA GeForce GTX TITAN X
+[0000.63] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.67] Log: Found D3D11 adapter 1: Intel(R) HD Graphics 4600
+[0000.67] Log: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 3983MB of shared system memory
+[0000.68] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0000.68] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory
+[0000.75] Log: Shader platform (RHI): PC-D3D-SM3
+[0003.45] Log: ProductDatabase_TA::PostLoad  0.02 sec total.
+[0003.53] Log: 97349 objects as part of root set at end of initial load.
+[0003.53] Log: 0 out of 0 bytes used by permanent object pool.
+[0003.53] Log: Initializing Engine...
+[0003.53] Log: BuildID: -158828089 from GPsyonixBuildID
+[0003.55] SystemSettings: Loading PC Settings
+[0003.60] Log: Running hardware survey...
+[0003.60] DevAudio: Allocated 32 sources
+[0003.60] DevAudio: CommonAudioPoolSize is set to 0 - disabling persistent pool for audio data
+[0003.60] Log: Wwise(R) SDK Version 2016.2.3 Build 6077. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0003.65] Log: OS: Microsoft Windows 10 Home  (10586)
+[0004.60] Log: WinSAT: 7.8 [7.8 CPU, 7.9 2D, 7.9 3D, 7.8 Mem, 7.9 Disk]
+[0004.60] Log: Processor: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz (Intel64 Family 6 Model 60 Stepping 3) 4 Cores, 8 Threads
+[0004.60] Log: Memory: 8.00GB
+[0004.60] Log: Memory: 8.00GB
+[0004.60] Log: VideoController: Intel(R) HD Graphics 4600 (20.19.15.4331)
+[0004.60] Log: VideoController: NVIDIA GeForce GTX TITAN X (23.21.13.8871)
+[0004.60] Log: Network Adapter: Killer E2200 Gigabit Ethernet Controller
+[0004.60] Log: Disk C: 66.44GB free of 463.88GB
+[0004.60] Log: Disk D: 994.09GB free of 1863.02GB
+[0004.60] Log: Disk E: 57.05GB free of 111.73GB
+[0004.60] Log: Disk F: 3.79GB free of 8.03GB
+[0004.60] Log: Disk G: 82.76GB free of 457.62GB
+[0004.60] Log: Disk Y: 0.13GB free of 0.44GB
+[0004.60] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0004.60] Log: Sound Device: Realtek High Definition Audio
+[0004.60] Log: Sound Device: NVIDIA High Definition Audio
+[0004.60] Log: Sound Device: VB-Audio Virtual Cable
+[0004.60] Log: Sound Device: VB-Audio VoiceMeeter VAIO
+[0004.60] Log: Sound Device: Senstic PocketAudio
+[0004.60] Log: Sound Device: Kinoni Audio Source
+[0004.60] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0004.60] Log: Initializing Steamworks
+[0004.61] DevOnline: Steam ID: 76561198044231460
+[0004.61] DevOnline: Steam universe: PUBLIC
+[0004.61] DevOnline: Steam appid: 252950
+[0004.61] DevOnline: Steam IsSubscribed: 1
+[0004.61] DevOnline: Steam IsLowViolence: 0
+[0004.61] DevOnline: Steam IsCybercafe: 0
+[0004.61] DevOnline: Steam IsVACBanned: 0
+[0004.61] DevOnline: Steam IP country: SE
+[0004.61] DevOnline: Steam official server time: 1518046872
+[0004.61] DevOnline: Steam Cloud quota: 89565848 / 100000000
+[0004.61] DevOnline: Steam original app owner: 76561198044231460
+[0004.61] DevOnline: Logged in as 'Wolfie'
+[0004.61] VoiceChat: The desired playback sample rate is 11000.
+[0004.61] ScriptLog: PsyNet using environment DBE_Production Prod
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 LoggedOut
+[0004.62] PsyNet: PsyNetConnection_X_0 disabled OSCS_NotConnected
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 HandleConnectionChanged
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Unknown|0|0 UpdateLoginState
+[0004.62] DevOnline: Logged in as 'Wolfie'
+[0004.62] PsyNet: PsyNetConnection_X_0 enabled
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleConnectionChanged
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 UpdateLoginState
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 RequestAuthCode
+[0004.62] DevOnline: Issuing request for auth session ticket
+[0004.62] DevOnline: Issuing request for encrypted app ticket
+[0004.62] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0004.62] DevOnline: Successfully set the friend join URL: 
+[0004.62] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0004.62] SaveGame: Savedata Load ControllerId=0 File=..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0004.65] DevNet: Browse: MENU_Main_p
+[0004.65] Log: LoadMap: MENU_Main_p
+[0004.96] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0005.00] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0005.38] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.02.08-00.40.39
+[0005.38] Log: Bringing up level for play took: 0.372885
+[0005.38] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0005.38] Warning: Warning, Failed to load 'SwfMovie GFX_Fonts.Fonts_EFIGS': Failed to find object 'SwfMovie GFX_Fonts.Fonts_EFIGS'
+[0005.91] DevOnline: Set rich presence to: Main Menu data: Menu
+[0005.91] Log: ########### Finished loading level: 1.260445 seconds
+[0006.54] Log: Flushing async loaders.
+[0006.80] Log: Flushed async loaders.
+[0006.80] Log: Initializing Engine Completed
+[0006.80] Log: >>>>>>>>>>>>>> Initial startup: 6.80s <<<<<<<<<<<<<<<
+[0006.82] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 SendLoginRequest
+[0006.82] DevOnline: Logged in as 'Wolfie'
+[0006.82] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0006.82] DevOnline: Successfully set the friend join URL: 
+[0006.84] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0006.86] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_0 [Auth/AuthPlayer]
+[0006.86] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0006.86] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0007.77] SignIn: Profile OnLoaded LocalID=0
+[0007.99] SignIn: Profile OnLoaded LocalID=1
+[0007.99] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,DarkCar,Body_NeoBike,Body_NeoCar,body_charged,body_Melonpan
+[0007.99] SignIn: SetProfile Profile=Profile_TA_0 ProfileName=[CV] Wolfie
+[0008.04] Log: Flushing async loaders.
+[0008.04] Log: Flushed async loaders.
+[0008.04] Warning: Warning, Failed to load 'SwfMovie GFX_StartMenu.StartMenu': Failed to find object 'SwfMovie GFX_StartMenu.StartMenu'
+[0008.21] DevAudio: UAudioDevice::ApplySoundMode(): Default
+[0008.23] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0008.23] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_0 Response=PsyNetMessage_X_1 Latency=1.4167 
+[0008.24] Log: FSaveDataExportTask(1670536119713792) wrote 1909257620 bytes to memory
+[0008.35] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0008.35] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1178089472]
+[0008.36] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_0->PsyNetMessage_X_1 PsyTime=1518046875 [Auth/AuthPlayer]
+[0008.36] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 LoggedIn
+[0008.36] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=True bPerConConnected=False
+[0008.38] DevOnline: Obtained steam user stats, user: 76561198044231460
+[0008.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_2 [Settings/GetStaticDataURL]
+[0008.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0008.40] PsyNet: HTTP send ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0008.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_3 [Players/GetPlayerTitles DLC/GetDLC Skills/GetPlayerSkill]
+[0008.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0008.40] PsyNet: HTTP send ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0008.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_4 [SaveData/Get]
+[0008.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0008.40] PsyNet: HTTP send ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0008.40] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_5 [Products/GetPlayerProducts]
+[0008.40] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0008.40] PsyNet: HTTP send ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0008.69] PsyNet: HTTP recv ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_6
+[0008.69] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_2 Response=PsyNetMessage_X_6 Latency=0.3100 
+[0008.69] PsyNet: HTTP recv ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_7
+[0008.69] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=1 ID=PsyNetMessage_X_3 Response=PsyNetMessage_X_7 Latency=0.3100 
+[0008.75] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_2->PsyNetMessage_X_6 PsyTime=1518046876 [Settings/GetStaticDataURL]
+[0008.75] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_3->PsyNetMessage_X_7 PsyTime=1518046876 [Players/GetPlayerTitles DLC/GetDLC Skills/GetPlayerSkill]
+[0008.80] Log: PsyNetStaticData could not find class 'PlayerReportConfig_TA'
+[0008.80] Log: FJsonStructReader - cannot find property PlayerReports because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property ReasonID because Struct has not been set.
+[0008.80] Log: FJsonStructReader - cannot find property Reason because Struct has not been set.
+[0008.83] Log: FSaveDataExportTask(1670536119713792) wrote 1909257620 bytes to memory
+[0008.83] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[0008.83] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1178085760]
+[0008.92] PsyNet: HTTP recv ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_8
+[0008.92] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_4 Response=PsyNetMessage_X_8 Latency=0.5443 
+[0008.94] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_4->PsyNetMessage_X_8 PsyTime=1518046876 [SaveData/Get]
+[0009.07] PsyNet: HTTP recv ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_9
+[0009.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_5 Response=PsyNetMessage_X_9 Latency=0.6947 
+[0009.09] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_5->PsyNetMessage_X_9 PsyTime=1518046876 [Products/GetPlayerProducts]
+[0009.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634741
+[0010.86] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_10 [Products/GetContainerDropTable]
+[0010.86] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0010.86] PsyNet: HTTP send ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0011.04] PsyNet: HTTP recv ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_11
+[0011.04] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_10 Response=PsyNetMessage_X_11 Latency=0.1802 
+[0011.05] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_10->PsyNetMessage_X_11 PsyTime=1518046879 [Products/GetContainerDropTable]
+[0011.16] DevOnline: Set rich presence to: Main Menu data: Menu
+[0011.17] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0011.17] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[0011.37] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_12 [Microtransaction/ClaimEntitlements]
+[0011.37] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0011.37] PsyNet: HTTP send ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0011.39] Warning: Warning, Failed to load 'SwfMovie GFX_UnlockMenu.UnlockMenu': Failed to find object 'SwfMovie GFX_UnlockMenu.UnlockMenu'
+[0011.78] PsyNet: HTTP recv ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_13
+[0011.78] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_12 Response=PsyNetMessage_X_13 Latency=0.2138 
+[0011.80] Log: FSaveDataExportTask(1673628496166912) wrote 1909257620 bytes to memory
+[0011.82] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[0011.82] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232951424]
+[0011.82] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_12->PsyNetMessage_X_13 PsyTime=1518046879 [Microtransaction/ClaimEntitlements]
+[0013.23] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634741
+[0013.23] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634742
+[0013.26] Log: FSaveDataExportTask(1673628496166912) wrote 1909257620 bytes to memory
+[0013.26] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0013.26] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232951040]
+[0014.07] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropsHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634742
+[0014.07] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropsHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634743
+[0014.07] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropsHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634744
+[0014.07] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropsHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634745
+[0014.07] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=0
+[0014.07] ScriptLog: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:OnDropHandled (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=2524634742
+[0014.07] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=0
+[0014.09] Log: FSaveDataExportTask(1673628496166912) wrote 1909257620 bytes to memory
+[0014.09] Products: (GFxData_ItemDrops_TA_0) GFxData_ItemDrops_TA::None:SetDropData (Uid=76561198044231460,Platform=OnlinePlatform_Steam) Wolfie DropID=0
+[0014.09] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[0014.09] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1178087168]
+[0016.22] Log: Flushing async loaders.
+[0016.24] Log: Flushed async loaders.
+[0016.74] Log: Flushing async loaders.
+[0016.77] Log: Flushed async loaders.
+[0016.77] Warning: Warning, Failed to load 'SwfMovie GFx_GarageMenu.GarageMenu': Failed to find object 'SwfMovie GFx_GarageMenu.GarageMenu'
+[0019.48] ScriptWarning: ScriptWarning, Accessed None 'Attribute'
+	GFxData_Products_TA Transient.GFxData_Products_TA_0
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0:000C
+Script call stack:
+	Function TAGame.GFxData_Products_TA:HandleProductLoaded
+	Function TAGame.GFxData_Products_TA:UpdateProductData
+	Function TAGame.GFxData_Products_TA:InstanceAttributes
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0
+
+[0019.74] ScriptWarning: ScriptWarning, Accessed None 'Attribute'
+	GFxData_Products_TA Transient.GFxData_Products_TA_0
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0:000C
+Script call stack:
+	Function TAGame.GFxData_Products_TA:HandleProductLoaded
+	Function TAGame.GFxData_Products_TA:UpdateProductData
+	Function TAGame.GFxData_Products_TA:InstanceAttributes
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0
+
+[0020.18] ScriptWarning: ScriptWarning, Accessed None 'Attribute'
+	GFxData_Products_TA Transient.GFxData_Products_TA_0
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0:000C
+Script call stack:
+	Function TAGame.GFxData_Products_TA:HandleProductLoaded
+	Function TAGame.GFxData_Products_TA:UpdateProductData
+	Function TAGame.GFxData_Products_TA:InstanceAttributes
+	Function TAGame.GFxData_Products_TA:__GFxData_Products_TA__InstanceAttributes_0
+
+[0030.23] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0030.23] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[0030.23] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232947584]
+[0037.02] GreaseMonkey: CheckAllCarSlotsCustomized True
+[0037.04] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0037.05] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0037.05] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1364064256]
+[0043.00] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0043.00] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[0043.00] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232936960]
+[0045.55] Warning: Warning, Failed to load 'SwfMovie GFX_PremiumGarage.PremiumGarage': Failed to find object 'SwfMovie GFX_PremiumGarage.PremiumGarage'
+[0051.67] Warning: Warning, Failed to load 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu': Failed to find object 'SwfMovie GFX_OnlinePlaylistMenu.OnlinePlaylistMenu'
+[0051.81] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.81] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.81] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.81] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.87] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0051.87] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_14 [GameServer/GetGameServerPingList Population/GetPopulation]
+[0051.87] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_14
+[0051.87] PsyNet: HTTP send ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_14
+[0051.90] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[0051.90] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232941440]
+[0051.90] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.90] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.90] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0051.90] Log: FGFxCallFunctionCallback: could not find function 'UpdateSkillData' in class 'TAGame.GFxData_Playlist_TA'
+[0052.07] PsyNet: HTTP recv ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_15
+[0052.07] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_14 Response=PsyNetMessage_X_15 Latency=0.2243 
+[0052.08] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_14->PsyNetMessage_X_15 PsyTime=1518046920 [GameServer/GetGameServerPingList Population/GetPopulation]
+[0052.08] Log: Using Secure Websockets
+[0052.14] Log: Using Secure Websockets
+[0052.15] Log: Using Secure Websockets
+[0052.16] Log: Using Secure Websockets
+[0052.17] Log: Using Secure Websockets
+[0052.18] Log: Using Secure Websockets
+[0052.19] Log: Using Secure Websockets
+[0052.20] Log: Using Secure Websockets
+[0052.20] Log: Using Secure Websockets
+[0052.21] Log: Using Secure Websockets
+[0053.45] Online: TryToPlayOnline ControllerID:'-1'
+[0053.45] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction:'False'
+[0053.45] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction:'False'
+[0053.45] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_16 [Population/UpdatePlayerPlaylist]
+[0053.45] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0053.45] PsyNet: HTTP send ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0053.70] PsyNet: HTTP recv ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_17
+[0053.70] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_16 Response=PsyNetMessage_X_17 Latency=0.2494 
+[0053.71] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_16->PsyNetMessage_X_17 PsyTime=1518046921 [Population/UpdatePlayerPlaylist]
+[0054.92] Matchmaking: All Regions Pinged: USE (0.1475), EU (0.0438), USW (0.1933), ASC (0.3252), ASM (0.2233), JPN (0.3197), ME (0.1945), OCE (0.3728), SAF (0.2404), SAM (0.2928)
+[0054.92] Matchmaking: StartMatchmaking at 2018-02-07 23:42:02 in EU for playlists 11 on game server 0
+[0054.95] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0054.95] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_18 [Matchmaking/StartMatchmaking]
+[0054.95] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_18
+[0054.95] PsyNet: HTTP send ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_18
+[0054.95] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0054.95] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232941696]
+[0055.18] PsyNet: HTTP recv ID=PsyNetMessage_X_18 Message=PsyNetMessage_X_19
+[0055.18] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_18 Response=PsyNetMessage_X_19 Latency=0.2436 
+[0055.18] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_18->PsyNetMessage_X_19 PsyTime=1518046923 [Matchmaking/StartMatchmaking]
+[0060.28] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_20 [Matchmaking/CheckReservation]
+[0060.28] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_20
+[0060.28] PsyNet: HTTP send ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_20
+[0061.25] PsyNet: HTTP recv ID=PsyNetMessage_X_20 Message=PsyNetMessage_X_21
+[0061.25] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_20 Response=PsyNetMessage_X_21 Latency=0.9666 
+[0061.29] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_20->PsyNetMessage_X_21 PsyTime=1518046928 [Matchmaking/CheckReservation]
+[0063.29] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_22 [Matchmaking/CheckReservation]
+[0063.29] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_22
+[0063.29] PsyNet: HTTP send ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_22
+[0063.48] PsyNet: HTTP recv ID=PsyNetMessage_X_22 Message=PsyNetMessage_X_23
+[0063.48] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_22 Response=PsyNetMessage_X_23 Latency=0.1865 
+[0063.48] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_22->PsyNetMessage_X_23 PsyTime=1518046931 [Matchmaking/CheckReservation]
+[0063.48] CheckReservation: Received game server ip188-42-190-164.datahound.com:2367 EU- 11
+[0063.48] JoinGame: StartJoin ip188-42-190-164.datahound.com:2367 JoinSettings.PlaylistID:'11' JoinSettings.bFriendJoin:'False' JoinSettings.bMigration:'False' JoinSettings.MatchType:'JMT_Public'
+[0063.48] DevOnline: Successfully set the friend join URL: 
+[0063.48] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0063.48] Online: TryToPlayOnline ControllerID:'-1'
+[0063.48] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction:'False'
+[0063.48] JoinGame: GotoJoinGameState VerifyPrivileges -> GenerateKeys
+[0063.49] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_24 [Keys/GenerateKeys Population/UpdatePlayerPlaylist Matchmaking/PlayerCancelMatchmaking]
+[0063.49] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0063.49] PsyNet: HTTP send ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0063.54] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_25 [Metrics/RecordMetrics]
+[0063.54] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_25 Message=PsyNetMessage_X_25
+[0063.54] PsyNet: HTTP send ID=PsyNetMessage_X_25 Message=PsyNetMessage_X_25
+[0063.71] PsyNet: HTTP recv ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_26
+[0063.71] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_24 Response=PsyNetMessage_X_26 Latency=0.2206 
+[0063.72] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_24->PsyNetMessage_X_26 PsyTime=1518046931 [Keys/GenerateKeys Population/UpdatePlayerPlaylist Matchmaking/PlayerCancelMatchmaking]
+[0063.72] JoinGame: GotoJoinGameState GenerateKeys -> ReservingServerForMatchmaking
+[0063.72] Log: Using Secure Websockets
+[0063.73] PsyNet: HTTP recv ID=PsyNetMessage_X_25 Message=PsyNetMessage_X_27
+[0063.73] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_25 Response=PsyNetMessage_X_27 Latency=0.1916 
+[0063.74] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_25->PsyNetMessage_X_27 PsyTime=1518046931 [Metrics/RecordMetrics]
+[0064.50] JoinGame: Waiting for more players to add reservations
+[0064.55] JoinGame: Waiting for more players to add reservations
+[0067.10] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0070.10] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0070.11] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA
+[0070.11] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA
+[0070.11] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0070.11] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0070.44] Log: No archetype specifies for game class GameInfo_Transition_TA, make sure it's added to the GameArchetypes list in DefaultEngine.ini
+[0070.44] Log: Game class is 'GameInfo_Transition_TA'
+[0070.45] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2018.02.08-00.41.44
+[0070.45] Log: Bringing up level for play took: 0.007641
+[0070.45] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0070.45] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0070.45] Log: ########### Finished loading level: 0.343043 seconds
+[0070.45] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_28 [Metrics/RecordMetrics]
+[0070.45] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_28
+[0070.45] PsyNet: HTTP send ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_28
+[0070.46] DevNet: Browse: 188.42.190.164:2360/MENU_Main_p?game=TAGame.GameInfo_Transition_TA?Name=Wolfie
+[0070.46] DevNet: Game client on port 2360, rate 10000
+[0070.67] PsyNet: HTTP recv ID=PsyNetMessage_X_28 Message=PsyNetMessage_X_29
+[0070.67] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_28 Response=PsyNetMessage_X_29 Latency=0.1821 
+[0070.70] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_28->PsyNetMessage_X_29 PsyTime=1518046938 [Metrics/RecordMetrics]
+[0070.74] DevNet: Failed to match package Core [4B9A354F44648688F83F7DA1C18546A8] in guid cache
+[0070.74] DevNet: Failed to match package Engine [687CAF9847D179F15EDA518773A46C63] in guid cache
+[0070.74] DevNet: Failed to match package GFxUI [069C626344B6D1762F3F5EAE1148A977] in guid cache
+[0070.74] DevNet: Failed to match package GameFramework [F2E4C9FA4EA55F3744AD1FAA46CF93A3] in guid cache
+[0070.74] DevNet: Failed to match package AkAudio [77227B7C4DF687C60DC383AE29C4DF22] in guid cache
+[0070.74] DevNet: Failed to match package ProjectX [6E9EFA54478CE5EAB9EB40B4608426F8] in guid cache
+[0070.74] DevNet: Failed to match package TAGame [1F2D19574A542F4AEE8FC3A9E4294AF5] in guid cache
+[0070.74] DevNet: Welcomed by server (Level: wasteland_s_p, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0070.74] Log: Flushing async loaders.
+[0070.75] Log: Flushed async loaders.
+[0070.75] Log: LoadMap: 188.42.190.164:2360/wasteland_s_p?Name=Wolfie?game=TAGame.GameInfo_Soccar_TA
+[0070.77] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0071.54] Log: Bringing World wasteland_s_p.TheWorld up for play (0) at 2018.02.08-00.41.45
+[0071.54] Log: Bringing up level for play took: 0.035308
+[0071.54] JoinGame: OnJoinGameComplete bSuccess:'True' FailReason:'' BugItReason:''
+[0071.54] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0071.76] Log: ########### Finished loading level: 1.006895 seconds
+[0071.77] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_30 [Metrics/RecordMetrics]
+[0071.77] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_30
+[0071.77] PsyNet: HTTP send ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_30
+[0071.77] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0071.79] Log: Flushing async loaders.
+[0071.79] Log: Flushed async loaders.
+[0071.79] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0071.95] DevNet: PlayerController_TA_1 setplayer LocalPlayer_TA_0
+[0071.95] MatchBroadcast: Init bBroadcastMatch:'False' MatchLog:'None' MatchRPC:'None'
+[0071.96] DevOnline: Set rich presence to: Doubles in Wasteland data: Playlist-11
+[0071.96] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[0071.96] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[0071.96] Log: UGFxDataStore_X::RemoveObject - object is NULL
+[0072.05] Log: FSaveDataExportTask(1674521849364480) wrote 1909257620 bytes to memory
+[0072.05] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_31 [Population/UpdatePlayerPlaylist]
+[0072.05] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_31 Message=PsyNetMessage_X_31
+[0072.05] PsyNet: HTTP send ID=PsyNetMessage_X_31 Message=PsyNetMessage_X_31
+[0072.08] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_2.save
+[0072.08] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232933248]
+[0072.08] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0072.14] PsyNet: HTTP recv ID=PsyNetMessage_X_30 Message=PsyNetMessage_X_32
+[0072.14] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_30 Response=PsyNetMessage_X_32 Latency=0.3755 
+[0072.16] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_30->PsyNetMessage_X_32 PsyTime=1518046940 [Metrics/RecordMetrics]
+[0072.23] PsyNet: HTTP recv ID=PsyNetMessage_X_31 Message=PsyNetMessage_X_33
+[0072.23] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_31 Response=PsyNetMessage_X_33 Latency=0.2961 
+[0072.24] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_31->PsyNetMessage_X_33 PsyTime=1518046940 [Population/UpdatePlayerPlaylist]
+[0080.84] Achievements: IncrementStat 2 324
+[0080.84] DevOnline: Failed to store stat entry; key: 1_2, bGameServerStats: 0
+[0080.87] DevOnline: Stored steam user stats.
+[0110.84] DevNet: (GameViewportClient_TA_0) GameViewportClient::None:SetProgressMessage MessageType=PMT_ConnectionFailure Message=You were kicked for being idle. : host migration not enabled.. handling connection error.
+[0110.84] DevNet: (GameViewportClient_TA_0) GameViewportClient::None:NotifyConnectionError Title:'' Message:'You were kicked for being idle.' NetMode:'NM_Client' Map:'wasteland_s_p'
+[0110.84] DevNet: URL: Adding default option Name=Wolfie
+[0110.85] DevNet: URL: Adding default option Name=Wolfie
+[0110.85] DevNet: Browse: MENU_Main_p?failed?Name=Wolfie
+[0110.85] Log: Failed; returning to Entry
+[0110.85] Log: LoadMap: MENU_Main_p?failed?Name=Wolfie
+[0110.85] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0111.03] DevOnline: Send Reconnect Message to 188.42.190.164:2360
+[0111.03] NetComeGo: Close TcpNetDriver_0 TcpipConnection_0 188.42.190.164:2360 08/02/2018 00:42:25 'UNetConnection::CleanUp'
+[0111.03] Exit: TcpNetDriver_0 shut down
+[0111.40] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0111.44] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0111.44] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2018.02.08-00.42.25
+[0111.44] DevOnline: UnregisterLocalTalker(0) returned 0x00000000
+[0111.44] DevOnline: Successfully set the friend join URL: 
+[0111.44] Log: Bringing up level for play took: 0.007915
+[0111.61] DevOnline: Set rich presence to: Main Menu data: Menu
+[0111.61] Log: ########### Finished loading level: 0.757236 seconds
+[0111.61] Log: Flushing async loaders.
+[0111.88] Log: Flushed async loaders.
+[0111.90] DevNet: SetProgress, MessageType=4, Title=Connection Lost, Message=Your connection to the game has been lost. (Error: 42)
+[0111.90] DevNet: (GameViewportClient_TA_0) GameViewportClient::None:SetProgressMessage MessageType=PMT_ConnectionFailure Message=Your connection to the game has been lost. (Error: 42) : host migration not enabled.. handling connection error.
+[0111.90] DevNet: (GameViewportClient_TA_0) GameViewportClient::None:NotifyConnectionError Title:'Connection Lost' Message:'Your connection to the game has been lost. (Error: 42)' NetMode:'NM_Standalone' Map:'MENU_Main_p'
+[0111.91] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_34 [Metrics/RecordMetrics Population/UpdatePlayerPlaylist]
+[0111.91] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_34
+[0111.91] PsyNet: HTTP send ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_34
+[0111.97] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0111.98] Warning: Warning, Failed to load 'SwfMovie GFX_MainMenu.MainMenu': Failed to find object 'SwfMovie GFX_MainMenu.MainMenu'
+[0112.16] PsyNet: HTTP recv ID=PsyNetMessage_X_34 Message=PsyNetMessage_X_35
+[0112.16] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_34 Response=PsyNetMessage_X_35 Latency=0.2565 
+[0112.21] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_34->PsyNetMessage_X_35 PsyTime=1518046980 [Metrics/RecordMetrics Population/UpdatePlayerPlaylist]
+[0112.25] Log: FSaveDataExportTask(1674521849364480) wrote 1909257620 bytes to memory
+[0112.29] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460_1.save
+[0112.29] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1075302144]
+[0155.27] Log: FSaveDataExportTask(1673903374073856) wrote 1909257620 bytes to memory
+[0155.28] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198044231460.save
+[0155.28] Log: SaveDataExport(0): Finished - File:[(null)] Result:[1232949632]
+[0155.98] JoinGame: StartJoin ip188-42-190-164.datahound.com:2367 JoinSettings.PlaylistID:'0' JoinSettings.bFriendJoin:'False' JoinSettings.bMigration:'False' JoinSettings.MatchType:'JMT_Public'
+[0155.98] DevOnline: Successfully set the friend join URL: -SteamConnectID=76561198044231460 -SteamConnectIP=ip188-42-190-164.datahound.com:2367
+[0155.98] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0155.98] Online: TryToPlayOnline ControllerID:'-1'
+[0155.98] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction:'False'
+[0155.98] JoinGame: GotoJoinGameState VerifyPrivileges -> GenerateKeys
+[0155.98] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_36 [Keys/GenerateKeys]
+[0155.99] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_36
+[0155.99] PsyNet: HTTP send ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_36
+[0156.18] PsyNet: HTTP recv ID=PsyNetMessage_X_36 Message=PsyNetMessage_X_37
+[0156.18] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_36 Response=PsyNetMessage_X_37 Latency=0.1987 
+[0156.19] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_36->PsyNetMessage_X_37 PsyTime=1518047024 [Keys/GenerateKeys]
+[0156.19] JoinGame: GotoJoinGameState GenerateKeys -> ReservingServerForMatchmaking
+[0156.19] Log: Using Secure Websockets
+[0156.20] ScriptWarning: ScriptWarning, Accessed None 'Playlist'
+	OnlinePlayer_TA Transient.GameEngine_TA_0:LocalPlayer_TA_0.OnlinePlayer_TA_0
+	Function TAGame.OnlinePlayer_TA:GetPlayersLikesDislikes:0122
+Script call stack:
+	Function ProjectX.OnlineGameJoinGame_X:ReservingServer.BeginState
+	Function ProjectX.OnlineGameJoinGame_X:ReservingServer.SendReservation
+	Function ProjectX.OnlineGameJoinGame_X:ReservingServer.SendReservationMessage
+	Function TAGame.OnlineGameJoinGame_TA:ReservingServerForMatchmaking.CreateReservationMessage
+	Function ProjectX.OnlineGameJoinGame_X:ReservingServerForMatchmaking.CreateReservationMessage
+	Function ProjectX.AddReservationMessagePublic_X:AddPlayers
+	Function ProjectX.AddReservationMessagePublic_X:SetPlayerPref
+	Function TAGame.OnlinePlayer_TA:GetPlayersLikesDislikes
+
+[0156.64] DevOnline: Logged in as 'Wolfie'
+[0156.64] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0156.64] DevOnline: Successfully set the friend join URL: -SteamConnectID=76561198044231460 -SteamConnectIP=ip188-42-190-164.datahound.com:2367
+[0156.64] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Wolfie PlayerID=Steam|76561198044231460|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0156.85] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0159.85] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0159.85] DevNet: Browse: JoinGameTransition?Name=Wolfie?game=TAGame.GameInfo_Transition_TA
+[0159.85] Log: LoadMap: JoinGameTransition?Name=Wolfie?game=TAGame.GameInfo_Transition_TA
+[0159.86] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0159.99] Log: No archetype specifies for game class GameInfo_Transition_TA, make sure it's added to the GameArchetypes list in DefaultEngine.ini
+[0159.99] Log: Game class is 'GameInfo_Transition_TA'
+[0160.01] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2018.02.08-00.43.14
+[0160.01] Log: Bringing up level for play took: 0.014326
+[0160.01] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0160.01] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0160.01] Log: ########### Finished loading level: 0.153192 seconds
+[0160.01] DevOnline: RPCQueue_X_0 SEND: PsyNetMessage_X_38 [Metrics/RecordMetrics]
+[0160.01] PsyNet: PsyNetRequestQue_X_0 SendRequest ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_38
+[0160.01] PsyNet: HTTP send ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_38
+[0160.01] DevNet: Browse: 188.42.190.164:2360/MENU_Main_p?Name=Wolfie?game=TAGame.GameInfo_Transition_TA
+[0160.01] DevNet: Game client on port 2360, rate 10000
+[0160.27] PsyNet: HTTP recv ID=PsyNetMessage_X_38 Message=PsyNetMessage_X_39
+[0160.27] PsyNet: PsyNetRequestQue_X_0 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_38 Response=PsyNetMessage_X_39 Latency=0.2602 
+[0160.27] DevNet: Failed to match package Core [4B9A354F44648688F83F7DA1C18546A8] in guid cache
+[0160.27] DevNet: Failed to match package Engine [687CAF9847D179F15EDA518773A46C63] in guid cache
+[0160.27] DevNet: Failed to match package GFxUI [069C626344B6D1762F3F5EAE1148A977] in guid cache
+[0160.27] DevNet: Failed to match package GameFramework [F2E4C9FA4EA55F3744AD1FAA46CF93A3] in guid cache
+[0160.27] DevNet: Failed to match package AkAudio [77227B7C4DF687C60DC383AE29C4DF22] in guid cache
+[0160.27] DevNet: Failed to match package ProjectX [6E9EFA54478CE5EAB9EB40B4608426F8] in guid cache
+[0160.27] DevNet: Failed to match package TAGame [1F2D19574A542F4AEE8FC3A9E4294AF5] in guid cache
+[0160.27] DevNet: Welcomed by server (Level: wasteland_s_p, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0160.30] Log: Flushing async loaders.
+[0160.31] Log: Flushed async loaders.
+[0160.31] Log: LoadMap: 188.42.190.164:2360/wasteland_s_p?Name=Wolfie?game=TAGame.GameInfo_Soccar_TA
+[0160.34] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0161.42] Log: Bringing World wasteland_s_p.TheWorld up for play (0) at 2018.02.08-00.43.15
+[0161.42] Log: Bringing up level for play took: 0.461443
+[0161.43] JoinGame: OnJoinGameComplete bSuccess:'True' FailReason:'' BugItReason:''
+[0161.43] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0161.62] Log: ########### Finished loading level: 1.313779 seconds
+[0161.63] DevOnline: RPCQueue_X_0 RECV: PsyNetMessage_X_38->PsyNetMessage_X_39 PsyTime=1518047028 [Metrics/RecordMetrics]
+[0161.64] Log: FGFxRegisterSingletonCallback: Could not find GFxDataSingleton_X subclass 'GFxData_TourEvent_TA'
+[0161.65] Log: Flushing async loaders.
+[0161.66] Log: Flushed async loaders.
+[0161.66] Warning: Warning, Failed to load 'SwfMovie GFX_Hud.Hud': Failed to find object 'SwfMovie GFX_Hud.Hud'
+[0161.91] DevNet: PlayerController_TA_3 setplayer LocalPlayer_TA_0
+[0161.91] MatchBroadcast: Init bBroadcastMatch:'False' MatchLog:'None' MatchRPC:'None'
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ClientMutePlayer:0023
+Script call stack:
+	Function TAGame.PlayerController_TA:ClientMutePlayer
+
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ClientMutePlayer:0023
+Script call stack:
+	Function TAGame.PlayerController_TA:ClientMutePlayer
+
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ClientMutePlayer:0023
+Script call stack:
+	Function TAGame.PlayerController_TA:ClientMutePlayer
+
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'InGameEvent'
+	CrowdActor_TA Wasteland_SFX.TheWorld:PersistentLevel.CrowdActor_TA_1
+	Function TAGame.CrowdActor_TA:InitClientListeners:000C
+Script call stack:
+	Function TAGame.CrowdActor_TA:ReplicatedEvent
+	Function TAGame.CrowdActor_TA:InitClientListeners
+
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'InGameEvent'
+	CrowdActor_TA Wasteland_SFX.TheWorld:PersistentLevel.CrowdActor_TA_1
+	Function TAGame.CrowdActor_TA:InitClientListeners:0035
+Script call stack:
+	Function TAGame.CrowdActor_TA:ReplicatedEvent
+	Function TAGame.CrowdActor_TA:InitClientListeners
+
+[0161.99] ScriptWarning: ScriptWarning, Accessed None 'InGameEvent'
+	CrowdActor_TA Wasteland_SFX.TheWorld:PersistentLevel.CrowdActor_TA_1
+	Function TAGame.CrowdActor_TA:InitClientListeners:005E
+Script call stack:
+	Function TAGame.CrowdActor_TA:ReplicatedEvent
+	Function TAGame.CrowdActor_TA:InitClientListeners
+
+[0164.16] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ChatMessage_TA:013C
+Script call stack:
+	Function TAGame.PlayerController_TA:ChatMessage_TA
+
+[0168.44] ScriptWarning: ScriptWarning, Accessed None 'PRI'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ToggleEditorRound:001E
+Script call stack:
+	Function TAGame.PlayerController_TA:ToggleEditorRound
+
+[0168.46] DevOnline: Steam GameOverlayActivated: 1
+[0169.11] DevOnline: Steam GameOverlayActivated: 0
+[0170.06] DevOnline: Steam GameOverlayActivated: 1
+[0170.52] DevOnline: Steam GameOverlayActivated: 0
+[0174.35] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ChatMessage_TA:013C
+Script call stack:
+	Function TAGame.PlayerController_TA:ChatMessage_TA
+
+[0174.49] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ChatMessage_TA:013C
+Script call stack:
+	Function TAGame.PlayerController_TA:ChatMessage_TA
+
+[0174.65] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ChatMessage_TA:013C
+Script call stack:
+	Function TAGame.PlayerController_TA:ChatMessage_TA
+
+[0176.91] ScriptWarning: ScriptWarning, Accessed None 'PlayerReplicationInfo'
+	PlayerController_TA wasteland_s_p.TheWorld:PersistentLevel.PlayerController_TA_3
+	Function TAGame.PlayerController_TA:ChatMessage_TA:013C
+Script call stack:
+	Function TAGame.PlayerController_TA:ChatMessage_TA
+
+[0178.20] Warning: Warning, Failed to load 'SwfMovie GFX_MidGameMenu.MidGameMenu': Failed to find object 'SwfMovie GFX_MidGameMenu.MidGameMenu'
+[0179.25] DevOnline: Steam GameOverlayActivated: 1
+[0180.80] DevOnline: Steam GameOverlayActivated: 0
+[0183.34] Log: All Windows Closed
+[0183.34] Log: appRequestExit(0)
+[0183.40] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 HandleLoginStatusChanged
+[0183.40] PsyNet: PsyNetConnection_X_0 UpdateConnectionState bConnected=False bPerConConnected=False
+[0183.40] Auth: OnlinePlayerAuthentication_TA_0 Steam|76561198044231460|0 LoggedOut
+[0183.40] Party: HandleLocalPlayerLoginStatusChanged PlayerName= PlayerID=Steam|76561198044231460|0 LoginStatus=LS_NotLoggedIn IsPrimary=True IsInParty=False
+[0183.41] Exit: Preparing to exit.
+[0183.50] Exit: Game engine shut down
+[0183.50] Exit: Windows client shut down
+[0183.51] Exit: XAudio2 Device shut down.
+[0183.51] Exit: AK Audio shut down.
+[0183.52] DevOnline: Send Reconnect Message to 188.42.190.164:2360
+[0183.52] NetComeGo: Close TcpNetDriver_1 TcpipConnection_1 188.42.190.164:2360 08/02/2018 00:43:37 'UNetConnection::CleanUp'
+[0183.52] Exit: TcpNetDriver_1 shut down
+[0184.37] Exit: Object subsystem successfully closed.
+[0184.48] Exit: Exiting.
+[0184.48] Log: Log file closed, 08/02/2018 00:43:38
